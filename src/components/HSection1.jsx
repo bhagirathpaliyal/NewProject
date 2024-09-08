@@ -1,10 +1,11 @@
 // src/components/Carousel.js
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const images = [
   { src: './src/assets/dy-slider-1.jpg', text: 'SPECIALIST FAMILY LAWYERS' ,text1: 'We achieve a result that is right for you'},
-  { src: './src/assets/dy-slider-1.jpg', text: 'FAMILY LAW FIRM',text1: 'Rely On Us For The Best Outcome' },
-  { src: './src/assets/dy-slider-1.jpg', text: 'FAMILY LAW FIRM',text1: 'Expertise with care and empathy' }
+  { src: './src/assets/Rectangle-329.jpg', text: 'FAMILY LAW FIRM',text1: 'Rely On Us For The Best Outcome' },
+  { src: './src/assets/Rectangle-331.jpg', text: 'FAMILY LAW FIRM',text1: 'Expertise with care and empathy' }
 ];
 
 const HSection1 = () => {
@@ -13,9 +14,9 @@ const HSection1 = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 5000);
 
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+    return () => clearInterval(intervalId); 
   }, []);
 
   const goToPrevious = () => {
@@ -27,7 +28,7 @@ const HSection1 = () => {
   };
 
   return (
-    <div className="relative w-full  h-[90vh] overflow-hidden">
+    <div className="relative w-full max-h-[90vh]  overflow-hidden">
       <div
         className="flex transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -45,7 +46,7 @@ const HSection1 = () => {
                 <h2 className='text-[55px] max-md:text-[45px] text-[#f4b50e] font-bold'>{image.text1}</h2>
                 <div className='flex items-center'>
                     <div className='w-[25px] h-[1px] bg-[#f4b50e] mr-[10px]'></div>
-                    <button className='text-[#fff] max-md:text-[12px] text-[15px] font-bold'>View More </button>
+                  <Link to={'/about-us'}>  <button className='text-[#fff] max-md:text-[12px] text-[15px] font-bold'>View More </button></Link>
                     </div>
                 
               </div>
