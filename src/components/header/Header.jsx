@@ -4,11 +4,13 @@ import Logo from './Logo'
 
 const Header = () => {
   return (
-    <div className='flex w-[95%] mx-auto justify-between items-center py-4'>
+    <div className='sticky top-0 bg-[#fff] z-10'>
+      <div className='flex w-[95%] mx-auto justify-between items-center py-4'>
       <Logo/>
       <Navbar/>
-      <div className='text-[#f4b50e] '>hello</div>
-      {/* text-[#1a243f] */}
+      <div >Call logo</div>
+      {/* text-[#1a243f] text-[#f4b50e] */}
+      </div>
       </div>
   )
 }
