@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Logo from './Logo'
+import ResponsiveNav from './ResponsiveNav'
 
 const Header = () => {
   return (
@@ -8,8 +9,8 @@ const Header = () => {
       <div className='flex w-[95%] mx-auto justify-between items-center py-4'>
       <Logo/>
       <Navbar/>
-      <div >Call logo</div>
-      {/* text-[#1a243f] text-[#f4b50e] */}
+      <div className='max-md:hidden'>Call logo</div>
+      <ResponsiveNav/>
       </div>
       </div>
   )
