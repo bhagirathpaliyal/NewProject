@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#1a243f', 
+        secondary: '#f4b50e',
+        accent: '',
+        neutral: '', 
+      },
       backgroundImage: {
         'call-bg': "url('src/assets/background_04.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",

@@ -40,12 +40,12 @@ const HSection1 = () => {
               alt={`Slide ${index}`}
               className="w-full h-auto object-cover"
             />
-            <div className="absolute top-[140px] max-md:top-[50px] left-[2.5%] w-[50%]">
+            <div className="absolute top-[140px] max-md:top-[50px] left-[2.5%] w-[50%] max-sm:w-[100%]">
               <div className=" text-white ">
-                <p className="text-[20px] md:font-bold md:mb-[30px]">{image.text}</p>
-                <h2 className='text-[55px] max-md:text-[45px] text-[#f4b50e] font-bold'>{image.text1}</h2>
+                <p className="text-[20px] max-md:text-[16px] md:font-bold md:mb-[30px]">{image.text}</p>
+                <h2 className='text-[55px] max-md:text-[30px] max-lg:text-[40px] text-secondary font-bold'>{image.text1}</h2>
                 <div className='flex items-center'>
-                    <div className='w-[25px] h-[1px] bg-[#f4b50e] mr-[10px]'></div>
+                    <div className='w-[25px] h-[1px] bg-secondary mr-[10px]'></div>
                   <Link to={'/about-us'}>  <button className='text-[#fff] max-md:text-[12px] text-[15px] font-bold'>View More </button></Link>
                     </div>
                 
@@ -56,13 +56,13 @@ const HSection1 = () => {
       </div>
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-[#fff] p-2  "
+        className="absolute top-1/2 left-[2%]  transform -translate-y-1/2 text-[#fff]"
       >
         &#10094;
       </button>
       <button
         onClick={goToNext}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-[#fff] "
+        className="absolute top-1/2 right-[1.5%] transform -translate-y-1/2 text-[#fff] "
       >
         &#10095;
       </button>
@@ -71,7 +71,7 @@ const HSection1 = () => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full ${currentIndex === index ? 'bg-white' : 'bg-gray-500'}`}
+            className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-white' : 'bg-gray-500'}`}
           />
         ))}
       </div>

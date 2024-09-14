@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className=' bg-[#1a243f]'>
+        <div className=' bg-primary'>
             <div className='w-[95%] mx-auto flex max-md:flex-col gap-[20px] max-md:gap-[50px] text-[#fff] text-[16px] py-[50px]'>
                 <div className='flex-1'>
-                    <h4 className='text-[45px] font-bold'>Logo <span className='text-[#f4b50e]'>Here</span></h4>
+                    <h4 className='text-[45px] font-bold'>Logo <span className='text-secondary'>Here</span></h4>
                     <p>NRI legal is most called for property services by overseas residing Indians. We are dedicated to solve property and other legal matters revolving around NRI individuals.</p>
                 </div>
                 <div className='flex-1'>
@@ -33,6 +33,7 @@ const Footer = () => {
                 </div>
 
             </div>
+            <div className='bg-primary flex justify-center items-center text-[16px]'>Developed By <pre className='font-bold text-secondary'> TechPaliyal</pre></div>
         </div>
     )
 }
