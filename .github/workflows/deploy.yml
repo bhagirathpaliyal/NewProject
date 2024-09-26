@@ -22,11 +22,14 @@ jobs:
           # Your build commands here
           # Example: npm install && npm run build
 
+      - name: List build directory
+        run: ls -la ./dist  # Ensure ./dist is the correct path
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: production-files  # Ensure this matches the download step
-          path: ./dist  # Update this to the correct path of your artifact
+          name: production-files
+          path: ./dist  # Ensure this is the correct path
 
   deploy:
     name: Deploy
@@ -38,7 +41,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: production-files  # This should match the upload artifact name
+          name: production-files  # Ensure this matches the upload artifact name
           path: ./dist
 
       - name: Deploy to GitHub Pages
