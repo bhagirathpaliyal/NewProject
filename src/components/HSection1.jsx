@@ -71,7 +71,7 @@ const HSection1 = () => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-2 h-2 rounded-full ${currentIndex === index ? 'bg-white' : 'bg-gray-500'}`}
+            className={`w-2 h-2 rounded-full  ${currentIndex === index ? 'bg-white' : 'bg-gray-500'}`}
           />
         ))}
       </div>
