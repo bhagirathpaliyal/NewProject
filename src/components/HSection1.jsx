@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import sliderImg1 from '/public/assets/dy-slider-1.jpg'
-import sliderImg2 from '../../public/assets/Rectangle-329.jpg'
-import sliderImg3 from '../../public/assets/Rectangle-331.jpg'
+import sliderImg2 from '/public/assets/Rectangle-329.jpg'
+import sliderImg3 from '/public/assets/Rectangle-331.jpg'
 const images = [
   { src: sliderImg1, text: 'SPECIALIST FAMILY LAWYERS' ,text1: 'We achieve a result that is right for you'},
   { src: sliderImg2, text: 'FAMILY LAW FIRM',text1: 'Rely On Us For The Best Outcome' },

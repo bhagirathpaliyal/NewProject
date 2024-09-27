@@ -1,6 +1,8 @@
 import React from 'react'
 import awardImg from '/public/assets/award-solid.svg'
-import shieldImg from '../../public/assets/shield-alt-solid.svg'
+import shieldImg from '/public/assets/shield-alt-solid.svg'
+import trophyImg from '/public/assets/trophy-solid.svg'
+import earthAsiaImg from '/public/assets/earth-asia-solid.svg'
 const HSection2 = () => {
   return (
     <div className='bg-primary '>
@@ -32,7 +34,7 @@ const HSection2 = () => {
 
       <div className='flex items-center gap-[20px]'>
         <div className='max-w-[84px] flex-1  '>            
-          <img src="./../public/assets/trophy-solid.svg" alt="image"className='h-[84px] w-[100%]'  />
+          <img src={trophyImg} alt="image"className='h-[84px] w-[100%]'  />
         </div>
         <div className='flex-1 flex-col'>
           <h4 className='text-[22px] font-bold text-secondary'>Award Winning</h4>
@@ -45,7 +47,7 @@ const HSection2 = () => {
 
       <div className='flex items-center gap-[20px]'>
         <div className='max-w-[84px] flex-1  '>            
-          <img src="./../public/assets/earth-asia-solid.svg" alt="imclassName='h-[84px] w-[100%]' age" />
+          <img src={earthAsiaImg} alt="img" className=' h-[84px] w-[100%]'  />
         </div>
         <div className='flex-1 flex-col'>
           <h4 className='text-[22px] font-bold text-secondary'>Multilingual</h4>
