@@ -10,22 +10,22 @@ const Footer = () => {
                 </div>
                 <div className='flex-1'>
                     <div className='flex gap-[10px] mb-[26px]'>
-                        <img src="./src/assets/envelope-regular.svg" alt="img" className='w-[26px] '/>
+                        <img src="./../public/assets/envelope-regular.svg" alt="img" className='w-[26px] '/>
                         <p>info@nrilegal.in</p>
                     </div>
                     <div className='flex gap-[10px] mb-[26px]'>
-                        <img src="./src/assets/location-dot-solid.svg" alt="img" className='w-[26px]'/>
+                        <img src="./../public/assets/location-dot-solid.svg" alt="img" className='w-[26px]'/>
                         <p>Chamber No. 168, First Floor, Lawyers Complex, District & Session Court Complex, Sector 43, Chandigarh, 160043</p>
                     </div>
                 </div>
                 <div className='flex-1'>
                     <div className='flex gap-[10px] mb-[26px]'>
-                        <img src="./src/assets/phone-solid.svg" alt="img" className='w-[26px]'/>
+                        <img src="./../public/assets/phone-solid.svg" alt="img" className='w-[26px]'/>
                         <p>0123-456-789</p>
                     </div>
 
                     <div className='flex gap-[10px] mb-[26px]'>
-                        <img src="./src/assets/clock-solid.svg" alt="img" className='w-[26px]'/>
+                        <img src="./../public/assets/clock-solid.svg" alt="img" className='w-[26px]'/>
                         <p>Monday - Friday: 10am - 6pm
                             Saturday: 10am - 2pm
                             Sunday: Closed</p>

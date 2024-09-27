@@ -7,7 +7,7 @@ const ResponsiveNav = () => {
     <div className='md:hidden'>
       <button className={`${isOpen ? '' : 'hidden'}`} onClick={() => (setIsOpen(prev => !prev))}>menu</button>
       <button className={`${isOpen ? 'hidden' : ''} flex justify-end`} onClick={() => (setIsOpen(prev => !prev))}>
-        <img src="./src/assets/xmark-solid.svg" alt="X-Mark" className='w-[20px] flex justify-center items-center' />
+        <img src="./../public/assets/xmark-solid.svg" alt="X-Mark" className='w-[20px] flex justify-center items-center' />
       </button>
       <div className={`${isOpen ? 'hidden' : ''} w-[50%] h-[100vh] bg-[#fff] absolute top-[68px] left-[0] flex flex-col`}>
 

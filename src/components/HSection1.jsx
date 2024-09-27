@@ -1,11 +1,13 @@
 // src/components/Carousel.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
+import sliderImg1 from '/public/assets/dy-slider-1.jpg'
+import sliderImg2 from '../../public/assets/Rectangle-329.jpg'
+import sliderImg3 from '../../public/assets/Rectangle-331.jpg'
 const images = [
-  { src: './src/assets/dy-slider-1.jpg', text: 'SPECIALIST FAMILY LAWYERS' ,text1: 'We achieve a result that is right for you'},
-  { src: './src/assets/Rectangle-329.jpg', text: 'FAMILY LAW FIRM',text1: 'Rely On Us For The Best Outcome' },
-  { src: './src/assets/Rectangle-331.jpg', text: 'FAMILY LAW FIRM',text1: 'Expertise with care and empathy' }
+  { src: sliderImg1, text: 'SPECIALIST FAMILY LAWYERS' ,text1: 'We achieve a result that is right for you'},
+  { src: sliderImg2, text: 'FAMILY LAW FIRM',text1: 'Rely On Us For The Best Outcome' },
+  { src: sliderImg3, text: 'FAMILY LAW FIRM',text1: 'Expertise with care and empathy' }
 ];
 
 const HSection1 = () => {
