@@ -4,12 +4,15 @@ import { NavLink } from "react-router-dom";
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
+
     <div className="md:hidden">
       <button
         className={`${isOpen ? "hidden" : ""}`}
         onClick={() => setIsOpen((prev) => !prev)}
       >
         menu
+
+ 
       </button>
       <button
         className={`${isOpen ? "" : "hidden"} flex justify-end`}

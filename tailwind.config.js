@@ -13,7 +13,7 @@ export default {
         neutral: '', 
       },
       backgroundImage: {
-        'call-bg': "url('src/assets/background_04.jpg')",
+        'call-bg': "url('/public/assets/background_04.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
     },
