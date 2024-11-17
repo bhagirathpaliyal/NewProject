@@ -9,6 +9,8 @@ import Header from "./components/header/Header";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Footer from "./components/Footer";
+import ContactUs from "./Pages/ContactUs";
+import CaseStudy from "./Pages/CaseStudy";
 
 function App() {
  
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About-Us" element={<AboutUs />} />
+          <Route path="/CaseStudy" element={<CaseStudy/>} />
+          <Route path="/Contact-Us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>
