@@ -3,14 +3,16 @@ import ContactForm from "../components/ContactForm";
 import envelopeImg from '/public/assets/envelope-regular.svg'
 import locationImg from '/public/assets/location-dot-solid.svg'
 import phoneImg from '/public/assets/phone-solid.svg'
-// import clockImg from '/public/assets/clock-solid.svg'
+
 const ContactUs = () => {
   return (
-    <div className="w-[95%] mx-auto  ">
+    <div>
       <div className="h-[300px] w-full bg-primary text-white flex justify-center items-center text-[25px] sm:text-[50px] font-medium">
         {" "}
         Contact Us
       </div>
+    <div className="w-[95%] mx-auto  ">
+      
       <div className="flex justify-around my-[50px] gap-[50px] max-sm:flex-col">
         <ContactForm />
         <div className="bg-secondary  rounded-lg shadow-md p-6 flex flex-1 flex-col justify-center items-center gap-[10px] text-white">
@@ -25,6 +27,7 @@ const ContactUs = () => {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 };
