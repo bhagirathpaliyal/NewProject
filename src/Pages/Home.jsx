@@ -5,6 +5,7 @@ import HCallSec from '../components/HCallSec'
 import HAboutSec from '../components/HAboutSec'
 
 const Home = () => {
+ 
   return (
     <div className=''>
     <HSection1/>

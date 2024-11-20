@@ -1,15 +1,66 @@
-import React from 'react'
+import React from "react";
 
 const CaseStudy = () => {
-  return (
-    <div className='w-[95%] mx-auto '>
-        <div className="h-[300px] w-full bg-primary text-white flex justify-center items-center text-[25px] sm:text-[50px] font-medium">
-        {" "}
-        CaseStudy
-      </div>
-        <div className='my-[50px]' >CaseStudy Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit perspiciatis assumenda illo accusantium cumque officia sit eligendi beatae voluptates deleniti, inventore sed. Velit veniam, impedit nostrum ut fuga reprehenderit culpa aperiam quidem provident dolores doloremque! Repudiandae impedit tempore perferendis cum est facere dolores quis consequatur ducimus similique sequi, omnis dolorum voluptate quia maiores corrupti veniam quibusdam consequuntur tempora velit modi rem a consectetur praesentium! Labore eius veniam vitae enim. Qui ad dolores ut commodi id optio cum necessitatibus earum numquam pariatur, recusandae ratione dicta, assumenda odit, aliquam inventore rem nisi? Soluta, maiores velit ducimus possimus labore tenetur. Doloremque neque perspiciatis suscipit alias corrupti quidem, blanditiis dolorum repellendus, expedita molestias, eum laudantium distinctio voluptatum accusantium libero quaerat quae accusamus omnis odit animi nisi doloribus. Eum, vel quam amet provident illo dignissimos cum eligendi consectetur, tempora maiores quis? Natus, aliquam, a porro quae minus accusantium perspiciatis esse aperiam, incidunt veritatis ad blanditiis iste ipsum dolorem ullam ex ea amet inventore reiciendis enim voluptas necessitatibus dolores fuga. Ex rem ad, suscipit officiis accusamus modi dicta fugiat earum corporis doloribus et, impedit autem cumque nesciunt animi quasi aut odit beatae cupiditate commodi, voluptatibus possimus fuga. Iusto nihil inventore quod incidunt aliquam! Facilis saepe, cum pariatur expedita enim consequatur optio animi eius? Reiciendis dignissimos similique rerum perspiciatis impedit quo quod ex at, nam vero et sit adipisci exercitationem dolorum. Minus, sed, pariatur porro assumenda voluptatibus dicta dolorum mollitia rerum delectus cupiditate quisquam eius amet? Eaque consequuntur, quae excepturi sapiente deserunt assumenda alias necessitatibus architecto, dolor, quod ad ratione? Eaque qui praesentium, non perferendis amet tempore possimus eveniet explicabo quibusdam delectus at culpa. Quos iste voluptas quis dicta rem quas. Recusandae cum quas quibusdam consequatur quis beatae earum culpa, ex necessitatibus cumque porro perspiciatis eaque eos repellendus tempore? Ipsum, aliquam? Consequatur soluta temporibus magnam deleniti sit quibusdam vitae! Voluptatum dolore corrupti, nam omnis enim dolores nesciunt quam dicta aperiam veritatis fuga. Voluptatum facere omnis quia quam inventore soluta, voluptatem nobis quae nesciunt ad ipsam nostrum amet nihil expedita, cum praesentium quidem atque officia repudiandae explicabo laboriosam recusandae laborum consequuntur sapiente. Nihil porro blanditiis ut, facere, modi quisquam eius eveniet totam ab nemo debitis molestias atque inventore laudantium? Quisquam sint molestiae obcaecati, fuga odit debitis voluptatum fugit minus eos nemo quaerat. Sed aperiam minus, obcaecati reiciendis doloremque ex quo eius laborum animi porro optio repudiandae, accusamus sequi vel consequatur eligendi soluta. Deleniti magnam sit, ipsum corporis dicta impedit alias quasi modi facilis excepturi numquam odio veritatis facere voluptates totam eum minus ratione, voluptatum sunt voluptate nostrum reprehenderit odit quibusdam hic. Unde sint fugit sequi eum cumque dicta officiis esse, iusto omnis minus ab repellat itaque ut nulla sunt, totam obcaecati ratione nisi soluta saepe quasi accusamus odit eius fugiat. Velit debitis error enim provident iusto vero iure vel sed ea voluptatum dolorem totam aspernatur reprehenderit, ratione explicabo consequatur quas impedit eius esse laudantium incidunt sit praesentium quo voluptatibus. Facere maxime earum aliquam eligendi voluptatibus! Blanditiis vel dicta praesentium voluptatum. Amet possimus blanditiis nam! Quasi ipsa commodi dolor error sed ea qui aspernatur explicabo? Nobis ipsam laboriosam esse cum, fugiat deleniti et provident quos beatae. Assumenda voluptates tempora id nesciunt necessitatibus, nobis itaque non mollitia accusamus dolore vitae hic? Reprehenderit aliquam sunt rerum repudiandae cum accusantium ipsum consequuntur blanditiis non illo, vero dignissimos, nisi explicabo voluptate? Ipsam veritatis delectus laboriosam illo ut veniam suscipit soluta accusamus perferendis quia non repellat cumque, quaerat pariatur hic porro recusandae alias facere fugiat tempore, molestias quod corporis eligendi blanditiis. Cum beatae ad, minus voluptas debitis soluta vel est nulla dolore accusamus tempora quam recusandae esse porro ipsum quia aperiam culpa iusto id tenetur reiciendis. Iste voluptates, vero nemo dolorem quos, ipsa sunt ex similique tempore necessitatibus reiciendis culpa eligendi totam maxime. Rerum dolore sequi vel animi! Labore sunt exercitationem, nisi repudiandae, ab cumque magnam quasi odio praesentium voluptate, pariatur omnis aliquam alias cupiditate aspernatur ullam enim ad itaque doloremque saepe! Aspernatur eius perspiciatis libero repellat, temporibus, molestiae odio voluptas autem, vitae veritatis cumque maiores deserunt laborum rem ipsa? Doloribus, dolore velit enim voluptatibus vero laudantium cum numquam culpa ducimus tempore quod commodi quam cupiditate temporibus minus, ipsum voluptatum odit. Hic laudantium a animi aut distinctio itaque iusto recusandae neque laborum doloremque illum obcaecati repudiandae natus sint, est expedita officia delectus. Ipsum quibusdam nobis, similique nulla consequuntur fugiat odio tempore beatae non itaque incidunt consequatur in quas neque dignissimos illo. Repellat reprehenderit dignissimos iure? Voluptatum eius ducimus nam est beatae corrupti. Explicabo, perferendis ea eveniet sit quaerat doloribus accusamus rem! Quasi, dolores quisquam unde amet assumenda veritatis expedita dignissimos aliquid perspiciatis sequi distinctio, ratione totam eos cupiditate. Assumenda fuga, ratione quis sunt, ipsa facere non dolores, recusandae nihil doloremque tempore et eveniet! Sed, quisquam sunt! Quod animi perferendis eum! Magni sit dolorum error non repellat quod aut quasi est repellendus quae blanditiis at earum facere quis tempore possimus autem quibusdam dolor, culpa voluptatum? Accusamus doloribus praesentium, libero deleniti necessitatibus saepe porro numquam corporis dolorum nihil qui eum pariatur, vero dolores dignissimos. Porro neque voluptatum tempora ipsum modi fugit amet reiciendis cumque et, earum deserunt debitis ducimus dolore nam dolorem vero perspiciatis tenetur autem mollitia, placeat expedita ad optio cum ex. Laborum nisi nobis ipsa quo debitis dolor obcaecati ea consectetur, maiores et quod enim dicta temporibus magnam, soluta commodi. Ipsa reprehenderit cum, molestias et fugiat nihil quo non eos incidunt architecto distinctio sequi illo dolorum doloribus deleniti enim aut odio optio veritatis perferendis, dicta voluptas quam maiores id? Sed aperiam aut, porro tempore reprehenderit deserunt! Suscipit ipsum qui ullam accusantium adipisci, veritatis quisquam reiciendis quis tenetur. Temporibus non excepturi corporis, velit blanditiis quos accusamus ipsam nisi necessitatibus reprehenderit repudiandae, libero iusto. Consequatur consequuntur doloremque veniam mollitia quasi alias a et odio saepe quaerat dolores, ullam magni dolore eligendi itaque illo provident quam similique quia iure, dolor molestias nulla. Sit iure numquam, tempore, quibusdam eaque dolor nemo sequi enim dolorum quia porro laboriosam rem pariatur nulla perferendis at earum et rerum aut blanditiis illo voluptatem? Soluta dolorum accusantium expedita. Laudantium molestias earum veritatis perspiciatis!</div>
-    </div>
-  )
-}
+  const caseStudies = [
+    {
+      title: "Property Dispute Resolution",
+      description:
+        "A client faced a legal battle over a commercial real estate property worth $5M. Our team conducted extensive research, gathered evidence, and negotiated skillfully to resolve the dispute out of court.",
+      outcome:
+        "Client retained full ownership of the property, saving over $500,000 in legal fees.",
+    },
+    {
+      title: "Corporate Legal Advisory",
+      description:
+        "Advised a multinational corporation during a complex merger and acquisition process. Our legal expertise ensured compliance with international trade laws and streamlined documentation.",
+      outcome: "Facilitated a seamless merger worth $50M, avoiding regulatory delays.",
+    },
+    {
+      title: "Family Law: Custody Battle",
+      description:
+        "A parent sought legal assistance to gain custody of their child in a highly contested case. We provided compassionate support and built a strong case focusing on the child's welfare.",
+      outcome: "Full custody awarded to the client, ensuring a stable future for the child.",
+    },
+    {
+      title: "Intellectual Property Protection",
+      description:
+        "A startup faced copyright infringement issues from a competitor. Our team quickly filed for an injunction and initiated litigation to protect the client's intellectual property.",
+      outcome:
+        "Secured an injunction and $100,000 in damages for the client, safeguarding their brand reputation.",
+    },
+    {
+      title: "Employment Law: Workplace Harassment",
+      description:
+        "Assisted an employee facing workplace harassment in a multinational company. We mediated with the employer and ensured appropriate compensation and policy changes.",
+      outcome: "Client received compensation and the company implemented anti-harassment training.",
+    },
+  ];
 
-export default CaseStudy
+  return (
+    <section id="case-study" className="container mx-auto py-10">
+      <h2 className="text-4xl font-bold mb-6 text-center">Case Studies</h2>
+      <p className="text-lg text-center mb-10">
+        Here are some success stories where our expertise made a difference for
+        our clients.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {caseStudies.map((caseStudy, index) => (
+          <div
+            key={index}
+            className="p-6 border rounded-lg shadow-lg hover:shadow-2xl transition"
+          >
+            <h3 className="text-2xl font-semibold mb-3">{caseStudy.title}</h3>
+            <p className="text-sm text-gray-600 mb-4">
+              {caseStudy.description}
+            </p>
+            <p className="font-medium text-secondary">
+              <strong>Outcome:</strong> {caseStudy.outcome}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default CaseStudy;
