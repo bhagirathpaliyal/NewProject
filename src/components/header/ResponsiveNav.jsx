@@ -47,7 +47,7 @@ const ResponsiveNav = () => {
               <li onClick={() => setIsOpen((prev) => !prev)}>About Us</li>
             </NavLink>
             <NavLink
-              to={"/"}
+              to={"/CaseStudy"}
               style={({ isActive }) => {
                 return isActive ? { color: "#f4b50e" } : { color: "#000" };
               }}
@@ -56,7 +56,7 @@ const ResponsiveNav = () => {
               <li onClick={() => setIsOpen((prev) => !prev)}>Case Study</li>
             </NavLink>
             <NavLink
-              to={"/About-Us"}
+              to={"/Contact-Us"}
               style={({ isActive }) => {
                 return isActive ? { color: "#f4b50e" } : { color: "#000" };
               }}

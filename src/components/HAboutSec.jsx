@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HAboutSec = () => {
   return (
@@ -14,6 +15,7 @@ const HAboutSec = () => {
     </Link>
   </div>
   
+
   )
 }
 

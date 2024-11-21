@@ -5,6 +5,7 @@ import HeroSec from '../components/HeroSec'
 import HAchievementSec from '../components/HAchievementSec'
 
 const Home = () => {
+ 
   return (
     <div className=''>
     <HeroSec/>
