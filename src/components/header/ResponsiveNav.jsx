@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-
+import xLogo from '/public/assets/xmark-solid.svg'
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -16,7 +16,7 @@ const ResponsiveNav = () => {
         onClick={() => setIsOpen((prev) => !prev)}
       >
         <img
-          src="./public/assets/xmark-solid.svg"
+          src={xLogo}
           alt="X-Mark"
           className="w-[20px] flex justify-center items-center"
         />
