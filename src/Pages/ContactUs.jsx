@@ -16,11 +16,11 @@ const ContactUs = () => {
       <div className="flex justify-around my-[50px] gap-[50px] max-sm:flex-col">
         <ContactForm />
         <div className="bg-secondary  rounded-lg shadow-md p-6 flex flex-1 flex-col justify-center items-center gap-[10px] text-white">
-          <img src={phoneImg} alt="Call logo" className="w-[48px]"/>
+          <img src={phoneImg} alt="Call logo" className="w-[38px]"/>
           <span>+91-1234567890</span>
-          <img src={envelopeImg} alt="email Logo" className="w-[48px]"/>
+          <img src={envelopeImg} alt="email Logo" className="w-[38px]"/>
           <span>example@gmail.com</span>
-          <img src={locationImg} alt="locationImg" className="w-[48px]"/>
+          <img src={locationImg} alt="locationImg" className="w-[36px]"/>
           <span className="w-[60%] text-center">
             Chamber No. 168, First Floor, Lawyers Complex, District & Session
             Court Complex, Sector 43, Chandigarh, 160043
