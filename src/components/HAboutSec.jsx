@@ -3,11 +3,19 @@ import { Link } from 'react-router-dom'
 
 const HAboutSec = () => {
   return (
-    <div className='p-[100px] flex flex-col justify-center items-center gap-[20px]'>
-      <h4 className='text-[26px]'>About Us</h4>
-      <div className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur neque nisi enim ullam similique incidunt voluptas ea ipsa voluptate ab error tenetur eligendi cum magnam, excepturi repellendus dolorum rerum, a vel. Neque, eveniet magnam ipsam quod nisi et a cupiditate labore, sapiente nulla qui. Dolorem nihil perferendis sint sapiente ullam impedit rem soluta consectetur quos dignissimos sequi asperiores illum, quaerat officia beatae unde provident alias aperiam dicta praesentium iste? Provident, exercitationem excepturi tenetur earum placeat quos nihil cumque amet, aliquam veritatis repellat quaerat pariatur dolore at sed assumenda omnis quasi praesentium. Facere quaerat quia ratione illo sed repellat asperiores laborum.</div>
-     <Link to={'/About-Us'}><button className='border border-secondary text-secondary font-medium p-2 rounded-md'>Know More -</button></Link> 
-    </div>
+    <div className="py-10 px-4 lg:py-20 lg:px-32 bg-gray-100 text-center">
+    <h4 className="text-2xl font-bold">About Us</h4>
+    <p className="mt-4 text-gray-600 max-w-screen-md mx-auto">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora recusandae odio velit ex quo nobis sit dicta aliquid! Ducimus eum accusamus magni eligendi atque facilis accusantium obcaecati! Id odit dolores aliquam, aut sint commodi eligendi dicta repudiandae nisi culpa sunt nostrum perspiciatis dolorum alias iste suscipit delectus ipsa atque dolor!
+    </p>
+    <Link to={'/About-Us'}>
+      <button className="mt-6 border border-secondary text-secondary px-4 py-2 rounded-md">
+        Know More -
+      </button>
+    </Link>
+  </div>
+  
+
   )
 }
 

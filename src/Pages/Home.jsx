@@ -1,16 +1,16 @@
 import React from 'react'
-import HSection1 from '../components/HSection1'
-import HSection2 from '../components/HSection2'
 import HCallSec from '../components/HCallSec'
 import HAboutSec from '../components/HAboutSec'
+import HeroSec from '../components/HeroSec'
+import HAchievementSec from '../components/HAchievementSec'
 
 const Home = () => {
  
   return (
     <div className=''>
-    <HSection1/>
+    <HeroSec/>
     <HAboutSec/>
-    <HSection2/>
+    <HAchievementSec/>
     <HCallSec/>
     </div>
   )

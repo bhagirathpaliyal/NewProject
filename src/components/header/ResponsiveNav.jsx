@@ -4,22 +4,19 @@ import { NavLink } from "react-router-dom";
 const ResponsiveNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-
     <div className="md:hidden">
       <button
         className={`${isOpen ? "hidden" : ""}`}
         onClick={() => setIsOpen((prev) => !prev)}
       >
         menu
-
- 
       </button>
       <button
         className={`${isOpen ? "" : "hidden"} flex justify-end`}
         onClick={() => setIsOpen((prev) => !prev)}
       >
         <img
-          src="../src/assets/xmark-solid.svg"
+          src="./public/assets/xmark-solid.svg"
           alt="X-Mark"
           className="w-[20px] flex justify-center items-center"
         />
