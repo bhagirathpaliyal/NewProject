@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import xLogo from '/public/assets/xmark-solid.svg'
-const ResponsiveNav = () => {
+const ResponsiveNav = ({ scrollToSection }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="md:hidden">
@@ -28,42 +28,25 @@ const ResponsiveNav = () => {
       >
         <nav className="m-[5%]">
           <ul className="flex flex-col gap-[20px]">
-            <NavLink
-              to={"/"}
-              style={({ isActive }) => {
-                return isActive ? { color: "#f4b50e" } : { color: "#000" };
-              }}
-            >
-              {" "}
-              <li onClick={() => setIsOpen((prev) => !prev)}>Home</li>
-            </NavLink>
-            <NavLink
-              to={"/About-Us"}
-              style={({ isActive }) => {
-                return isActive ? { color: "#f4b50e" } : { color: "#000" };
-              }}
-            >
-              {" "}
-              <li onClick={() => setIsOpen((prev) => !prev)}>About Us</li>
-            </NavLink>
-            <NavLink
-              to={"/CaseStudy"}
-              style={({ isActive }) => {
-                return isActive ? { color: "#f4b50e" } : { color: "#000" };
-              }}
-            >
-              {" "}
-              <li onClick={() => setIsOpen((prev) => !prev)}>Case Study</li>
-            </NavLink>
-            <NavLink
-              to={"/Contact-Us"}
-              style={({ isActive }) => {
-                return isActive ? { color: "#f4b50e" } : { color: "#000" };
-              }}
-            >
-              {" "}
-              <li onClick={() => setIsOpen((prev) => !prev)}>Contact Us</li>
-            </NavLink>
+          <button onClick={() =>scrollToSection('Home') }>
+          {" "}
+          <li>Home</li>
+        </button>
+        <button onClick={() =>scrollToSection('About-Us') }>
+          {" "}
+          <li>About Us</li>
+        </button>
+        <button onClick={() =>scrollToSection('Case-Study') }>
+          {" "}
+          <li>Case Study</li>
+        </button>
+        <button
+          onClick={() =>scrollToSection('Contact-Us') }
+        >
+          {" "}
+          <li>Contact Us</li>
+        </button>
+    
           </ul>
         </nav>
       </div>
