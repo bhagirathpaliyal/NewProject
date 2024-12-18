@@ -1,46 +1,29 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+
+const Navbar = ({ scrollToSection }) => {
   return (
     <nav>
       <ul className="flex gap-6 text-[14px] max-md:hidden">
-        <NavLink
-          to={"/"}
-          style={({ isActive }) => {
-            return isActive ? { color: "#f4b50e" } : { color: "#000" };
-          }}
-        >
+        <button onClick={() =>scrollToSection('Home') }>
           {" "}
           <li>Home</li>
-        </NavLink>
-        <NavLink
-          to={"/About-Us"}
-          style={({ isActive }) => {
-            return isActive ? { color: "#f4b50e" } : { color: "#000" };
-          }}
-        >
+        </button>
+        <button onClick={() =>scrollToSection('About-Us') }>
           {" "}
           <li>About Us</li>
-        </NavLink>
-        <NavLink
-          to={"/CaseStudy"}
-          style={({ isActive }) => {
-            return isActive ? { color: "#f4b50e" } : { color: "#000" };
-          }}
-        >
+        </button>
+        <button onClick={() =>scrollToSection('Case-Study') }>
           {" "}
           <li>Case Study</li>
-        </NavLink>
-        <NavLink
-          to={"/Contact-Us"}
-          style={({ isActive }) => {
-            return isActive ? { color: "#f4b50e" } : { color: "#000" };
-          }}
+        </button>
+        <button
+          onClick={() =>scrollToSection('Contact-Us') }
         >
           {" "}
           <li>Contact Us</li>
-        </NavLink>
+        </button>
+    
       </ul>
     </nav>
   );
